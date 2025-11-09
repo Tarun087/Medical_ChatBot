@@ -15,7 +15,7 @@ app = Flask(__name__)
 
 pinecone_api_key = os.getenv("pinecone_api_key")
 groq_api_key = os.getenv("GROQ_API_KEY")
-groq_model = os.getenv("GROQ_MODEL")
+groq_model = "llama-3.3-70b-versatile"
 
 
 
